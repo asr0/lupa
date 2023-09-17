@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload CSV</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-purple-200">
+
+  <!-- Cabeçalho -->
+  <header class="bg-purple-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html">
+        <img src="logo.png" alt="Logo" class="h-10" id="logo">
+      </a>
+      <button id="menuBtn" class="focus:outline-none">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Lateral -->
+  <nav id="sideMenu"
+    class="bg-white fixed top-16 right-0 w-64 h-screen transform translate-x-100 overflow-y-auto transition-transform duration-300">
+    <a href="dashboard.html" class="block p-4 hover:bg-gray-200">Dashboard</a>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="flex-grow container mx-auto mt-16 p-4">
+    <div class="bg-white p-8 rounded shadow-lg">
+      <div class="form-container">
+        <h1 class="text-2xl mb-8">Para você, quais são os fatores que indicam risco judicial, numa escala de relevância
+        </h1>
+
+        <div class="mb-4">
+          <label for="variable1" class="block text-lg mb-2">Atraso da dívida:</label>
+          <select id="variable1" class="border rounded p-2 w-full">
+            <option value="16">Extremamente relevante</option>
+            <option value="8">Muito relevante</option>
+            <option value="4" selected>Moderadamente relevante</option>
+            <option value="2">Ligeiramente relevante</option>
+            <option value="1">Nem um pouco relevante</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label for="variable1" class="block text-lg mb-2">Valor da dívida:</label>
+          <select id="variable1" class="border rounded p-2 w-full">
+            <option value="16">Extremamente relevante</option>
+            <option value="8">Muito relevante</option>
+            <option value="4" selected>Moderadamente relevante</option>
+            <option value="2">Ligeiramente relevante</option>
+            <option value="1">Nem um pouco relevante</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label for="variable1" class="block text-lg mb-2">Prescrição da dívida:</label>
+          <select id="variable1" class="border rounded p-2 w-full">
+            <option value="16">Extremamente relevante</option>
+            <option value="8">Muito relevante</option>
+            <option value="4" selected>Moderadamente relevante</option>
+            <option value="2">Ligeiramente relevante</option>
+            <option value="1">Nem um pouco relevante</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label for="variable1" class="block text-lg mb-2">Quantidade de meios de comunicação manifestados:</label>
+          <select id="variable1" class="border rounded p-2 w-full">
+            <option value="16">Extremamente relevante</option>
+            <option value="8">Muito relevante</option>
+            <option value="4" selected>Moderadamente relevante</option>
+            <option value="2">Ligeiramente relevante</option>
+            <option value="1">Nem um pouco relevante</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label for="variable1" class="block text-lg mb-2">Litigante Costumaz:</label>
+          <select id="variable1" class="border rounded p-2 w-full">
+            <option value="16">Extremamente relevante</option>
+            <option value="8">Muito relevante</option>
+            <option value="4" selected>Moderadamente relevante</option>
+            <option value="2">Ligeiramente relevante</option>
+            <option value="1">Nem um pouco relevante</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label for="variable1" class="block text-lg mb-2">Número de processos do cliente:</label>
+          <select id="variable1" class="border rounded p-2 w-full">
+            <option value="16">Extremamente relevante</option>
+            <option value="8">Muito relevante</option>
+            <option value="4" selected>Moderadamente relevante</option>
+            <option value="2">Ligeiramente relevante</option>
+            <option value="1">Nem um pouco relevante</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label for="variable1" class="block text-lg mb-2">Faixa etária:</label>
+          <select id="variable1" class="border rounded p-2 w-full">
+            <option value="16">Extremamente relevante</option>
+            <option value="8">Muito relevante</option>
+            <option value="4" selected>Moderadamente relevante</option>
+            <option value="2">Ligeiramente relevante</option>
+            <option value="1">Nem um pouco relevante</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <button id="proceedButton" class="bg-purple-600 text-white rounded p-2 hover:bg-purple-700 fixed bottom-4 right-8">
+    Prosseguir
+  </button>
+
+
+  <script src="variaveis.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+
+</body>
+
+</html>

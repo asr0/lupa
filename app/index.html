@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload CSV</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-purple-200 overflow-hidden">
+
+  <!-- Cabeçalho -->
+  <header class="bg-purple-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html">
+      <img src="logo.png" alt="Logo" class="h-10" id="logo">
+      </a>
+      <button id="menuBtn" class="focus:outline-none">
+        <i class="fas fa-bars fa-lg"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Lateral -->
+  <nav id="sideMenu"
+    class="bg-white fixed top-16 right-0 w-64 h-screen transform translate-x-100 overflow-y-auto transition-transform duration-300">
+    <a href="dashboard.html" class="block p-4 hover:bg-gray-200">Dashboard</a>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <div class="flex flex-col justify-center items-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md mb-16">
+      <h2 class="text-2xl mb-4">Adicione sua carteira aqui</h2>
+      <input type="file" id="fileUpload" class="hidden" accept=".csv">
+      <button onclick="document.getElementById('fileUpload').click();"
+        class="bg-purple-600 text-white rounded-full p-4 hover:bg-purple-700 mb-4">
+        Upload
+      </button>
+      <p id="fileName" class="text-gray-600"></p>
+    </div>
+    <button id="proceedButton" class="bg-purple-600 text-white rounded p-2 hover:bg-purple-700 fixed bottom-4 right-4">
+      Prosseguir
+    </button>
+  </div>
+
+  <script src="scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+
+</body>
+
+</html>

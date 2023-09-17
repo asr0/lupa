@@ -1,0 +1,16 @@
+/* Cores personalizadas do Nubank */
+.bg-nubank {
+    background-color: #8A05BE;
+}
+
+.hover\:bg-nubank-dark:hover {
+    background-color: #6D00A3;
+}
+
+.logo-size {
+    width: 48px; /* Ajuste o tamanho conforme necessário */
+    height: 48px;
+}
+#sideMenu {
+    transform: translateX(100%);    
+}
