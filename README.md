@@ -2,7 +2,7 @@
 
 # Sistema de Análise de Risco Judicial
 
-Este projeto é um MVP para o Hackaton Jurídico, com o propósito de resolve o desafio #2.
+Este projeto é um MVP para o Hackaton Jurídico, com o propósito de resolve o desafio #3 Estimar e avaliar a propensão de devedor ingressar com ação judicial.
 
 ## Índice
 
@@ -17,7 +17,7 @@ Este projeto é um MVP para o Hackaton Jurídico, com o propósito de resolve o 
 
 ## Stack
 
-- HTML, CSS, JS, Node, Tailwind CSS, Bootstrap, PWA, SCSS, storage, charts.js
+- HTML, CSS, JS, Node, Tailwind CSS, Bootstrap, PWA, SCSS, storage, charts.js e LUIS IA
 
 ## Funcionalidades
 
