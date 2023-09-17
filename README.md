@@ -17,7 +17,7 @@ Este projeto é um MVP para o Hackaton Jurídico, com o propósito de resolve o 
 
 ## Stack
 
-- HTML, CSS, JS, Node, Tailwind CSS, Bootstrap, PWA, SCSS, storage, charts.js e LUIS IA
+- HTML, CSS, JS, Node, Tailwind CSS, Bootstrap, PWA, SCSS, JSON, charts.js e LUIS IA
 
 ## Funcionalidades
 
