@@ -6,12 +6,18 @@ Este projeto é um MVP para o Hackaton Jurídico, com o propósito de resolve o 
 
 ## Índice
 
+- [Stack](#Stack)
 - [Funcionalidades](#funcionalidades)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 - [Contato](#contato)
+
+
+## Stack
+
+- HTML, CSS, JS, Node, Tailwind CSS, Bootstrap, PWA, SCSS, storage, charts.js
 
 ## Funcionalidades
 
